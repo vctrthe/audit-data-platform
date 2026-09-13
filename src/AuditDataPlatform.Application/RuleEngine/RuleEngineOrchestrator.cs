@@ -54,6 +54,7 @@ public sealed class RuleEngineOrchestrator : IRuleEngineOrchestrator
                 {
                     ImportJobId = importRow.ImportJobId,
                     ImportRowId = importRow.Id,
+                    RowNumber = importRow.RowNumber,
                     RuleId = rule.Id,
                     Severity = rule.Severity,
                     Message = result.Message,

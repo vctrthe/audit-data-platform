@@ -12,6 +12,8 @@ public class Finding
     public required Guid ImportRowId { get; init; }
     public ImportRow? ImportRow { get; init; }
 
+    public required int RowNumber { get; init; }
+
     public required Guid RuleId { get; init; }
     public Rule? Rule { get; init; }
 
